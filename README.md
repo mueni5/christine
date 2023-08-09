@@ -11,6 +11,15 @@ Contact Page: Provides more information about me, including my contact details a
 
 Skills page: Showcases a collection of the frameworks i am proficient in.
 
+## Technologies used
+React - allows to compose each part of our landing page through reusable components
+
+json server - uses a json file containing all the data needed.
+
+Netlify - for deployment
+
+Tailwind -  gives the app a professional appearance, Tailwind will allow us to easily apply multiple styles through combining classnames on our React elements.
+
 ### Front-end Setup
 To run the front-end of the portfolio, follow these steps:
 
