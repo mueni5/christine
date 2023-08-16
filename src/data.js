@@ -9,16 +9,16 @@ export const projects = [
     link: "https://github.com/mueni5/e-commerce-project-front-end",
   },
   {
-    title: "Linda Mama Chat app",
+    title: "Linda Mama app",
     subtitle: "React, Postgresql and rails",
     description:
       "an app that allows expecting mothers to interact with one another through messages",
     image: "./project-3.gif",
-    link: "https://github.com/mueni5/mama-trial",
+    link: "https://linda-mama-fullstack.onrender.com/",
   },
   {
     title: "Portfolio",
-    subtitle: "React and Dbjson",
+    subtitle: "React and db.json",
     description:
       "an older simple version of my portfolio that i was practising to build",
     image: "./project-2.gif",
