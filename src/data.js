@@ -21,7 +21,7 @@ export const projects = [
     subtitle: "React and db.json",
     description:
       "an older simple version of my portfolio that i was practising to build",
-    image: "./project-2.gif",
+    image: "./2023-08-31 13-02-47.png",
     link: "https://github.com/mueni5/my-portfolio",
   },
   
@@ -38,14 +38,14 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Very enthusiastic student. Ready to learn and open to criticism. well versed with current technologies.",
+      "I highly recommend Christine. Ready to learn and open to criticism. She is well equiped with right skills and technologies.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Karanja Daniel",
+    name: "K Daniel",
     company: "Moringa School",
   },
   {
     quote:
-      "an amazing, determined indivindual. Doing her best to become the best. Ready to start her career in Tech!.",
+      "An amazing, determined indivindual.Excited about projects in Tech!.",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
     name: "Amos W",
     company: "Dooble.io",

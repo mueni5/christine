@@ -33,7 +33,8 @@ Make sure you have Node.js installed on your machine.
 Clone this repository to your local system (if you haven't already).
 Navigate to the db directory and run npm install to install the required dependencies.
 Once the installation is complete, run npm start to start the JSON server. The server will be available at http://localhost:3000.
-Data Management
+
+## Data Management
 The front-end interacts with the JSON server to fetch project data and personal information. Requests to the JSON server are made using Axios, and the data is displayed on the respective pages.
 
 ### Contributing
