@@ -3,10 +3,14 @@ My portfolio is a showcase of my projects, skills, and personal information. It 
 
 ## Features
 About Page: Displays my name, profile picture, and a brief description.
+
 Projects Page: Showcases a collection of my projects with details and links.
-Contact Page: Provides more information about me, including my contact details and links to my GitHub and LinkedIn profiles.
+
+Contact Page: Provides a form for the user to fill-in details of their feedback
 
 Skills page: Showcases a collection of the frameworks i am proficient in.
+
+Testimonials page: Displays recommendations from some of the people who i have worked with.
 
 ## Technologies used
 React - allows to compose each part of our landing page through reusable components
@@ -17,13 +21,8 @@ Netlify - for deployment
 
 Tailwind CSS -  gives the app a professional appearance, Tailwind will allow us to easily apply multiple styles through combining classnames on our React elements.
 
-### Front-end Setup
-To run the front-end of the portfolio, follow these steps:
+### Setup
 
-Make sure you have Node.js installed on your machine.
-Clone this repository to your local system.
-Navigate to the project root directory and run npm install to install the required dependencies.
-Once the installation is complete, run npm start to start the development server. The front-end will be available at http://localhost:4000.
 JSON Server Setup
 The JSON server acts as a mock database for the portfolio project. It provides data for the projects and personal information displayed on the front-end.
 
@@ -31,7 +30,7 @@ To run the JSON server, follow these steps:
 
 Make sure you have Node.js installed on your machine.
 Clone this repository to your local system (if you haven't already).
-Navigate to the db directory and run npm install to install the required dependencies.
+Navigate to the directory and run npm install to install the required dependencies.
 Once the installation is complete, run npm start to start the JSON server. The server will be available at http://localhost:3000.
 
 ## Data Management

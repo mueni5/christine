@@ -10,8 +10,8 @@ export default function About() {
             <br className="hidden lg:inline-block" />Software Developer
           </h1>
           <p className="mb-8 leading-relaxed">
-          "I build Web applications using HTML, CSS, React, Ruby & Ruby on Rails frameworks.
-            Apart from Softwares; i am a Tours consultant specialising in hiking,excursions and weekend-trips
+          "I build Web applications using HTML, CSS, React, Ruby & Ruby on Rails.
+            Apart from software; i am a Tours Consultant specialising in Hikes, Excursions and Weekend-trips
           </p>
           
           <div className="flex justify-center">

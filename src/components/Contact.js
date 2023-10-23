@@ -1,26 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Contact() {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   function encode(data) {
     return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
+      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&");
   }
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    // Basic form validation
+    if (!name || !email || !message) {
+      alert("Please fill in all fields before submitting.");
+      return;
+    }
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => {
+        alert("Message sent!");
+        setSubmitted(true); // Mark the form as submitted
+        // Clear the input fields
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
       .catch((error) => alert(error));
   }
 
@@ -72,8 +85,9 @@ export default function Contact() {
             Lets talk business!
           </h2>
           <p className="leading-relaxed mb-5">
-            Would you like to hire, work or collaborate with me in tech?
-            Kindly leave a message below.
+            {submitted
+              ? "Thank you for your feedback!"
+              : "Would you like to hire, work or collaborate with me in tech? Kindly leave a message below."}
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

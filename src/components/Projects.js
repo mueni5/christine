@@ -9,10 +9,10 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Sites i have Built
+            Apps i have built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            These are some of my favorite apps; Some of these apps i have build in collaboration with other developers.
+            These are some of my favorite apps; Some of them i have build in collaboration with other developers.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
